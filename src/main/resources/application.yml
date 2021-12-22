@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: currency-exchange
+server:
+  port: 9101
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8083/eureka/
